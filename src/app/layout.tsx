@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -18,6 +17,9 @@ export const metadata: Metadata = {
   title: "Farai's Medical Hub",
   description:
     "A platform dedicated to medical education, research, technology, innovation and lifelong learning.",
+  verification: {
+    google: "jC9--mgUraKBty-5cUSy7gyYL8czXXrBlo4IF4o_DiQ",
+  },
 };
 
 export default function RootLayout({
